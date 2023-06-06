@@ -1,0 +1,42 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  object-fit: cover;
+  border-radius: 5px;
+  float: left;
+}
+
+.product .details {
+  float: left;
+}
+
+.product .details h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.product .details p {
+  margin: 0;
+  color: #888;
+}
